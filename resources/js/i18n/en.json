@@ -1,0 +1,11 @@
+{
+    "common": {
+        "save": "Save",
+        "cancel": "Cancel"
+    },
+    "roles": {
+        "ROLE_READER": "Reader",
+        "ROLE_WRITER": "Writer",
+        "ROLE_ADMIN": "Administrator"
+    }
+}

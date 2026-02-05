@@ -7,7 +7,6 @@ const props = defineProps<{
   defaultValue?: string | number
   modelValue?: string | number
   class?: HTMLAttributes["class"]
-
 }>()
 
 const emits = defineEmits<{

@@ -12,10 +12,10 @@ import { Label } from '@/components/ui/label';
 import {
     Select,
     SelectContent,
-    SelectItem,
-    SelectValue,
-    SelectTrigger,
     SelectGroup,
+    SelectItem,
+    SelectTrigger,
+    SelectValue,
 } from '@/components/ui/select';
 import AppLayout from '@/layouts/AppLayout.vue';
 import SettingsLayout from '@/layouts/settings/Layout.vue';
@@ -23,7 +23,6 @@ import { edit } from '@/routes/profile';
 import { send } from '@/routes/verification';
 import { type BreadcrumbItem } from '@/types';
 import { UserRoles } from '@/types/enums';
-
 
 interface Props {
     mustVerifyEmail: boolean;

@@ -1,5 +1,5 @@
 export enum UserRoles {
-    ROLE_READER = 'Reader',
-    ROLE_WRITER = 'Writer',
-    ROLE_ADMIN = 'Admin',
+    ROLE_READER = 'ROLE_READER',
+    ROLE_WRITER = 'ROLE_WRITER',
+    ROLE_ADMIN = 'ROLE_ADMIN',
 }

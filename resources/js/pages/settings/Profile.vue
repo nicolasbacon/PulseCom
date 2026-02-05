@@ -78,7 +78,7 @@ const selectedRole = ref<string>(user.role);
                                         :key="role.value"
                                         :value="role.value"
                                     >
-                                        {{ role.label }}
+                                        {{ $t('roles.' + role.label) }}
                                     </SelectItem>
                                 </SelectGroup>
                             </SelectContent>
